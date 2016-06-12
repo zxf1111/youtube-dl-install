@@ -1,0 +1,4 @@
+git clone https://github.com/rofl0r/proxychains-ng.git 
+cd proxychains-ng 
+./configure && make && make install  
+make install-config
