@@ -1,5 +1,5 @@
 # youtube-dl-install
-用通过ss代理下载youtube影片
+*用通过ss代理下载youtube影片
 brew install proxychains-ng 
 brew install youtube-dl 
 sudo nano /usr/local/etc/proxychains.conf 
