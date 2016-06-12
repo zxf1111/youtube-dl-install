@@ -2,3 +2,18 @@ git clone https://github.com/rofl0r/proxychains-ng.git
 cd proxychains-ng 
 ./configure && make && make install  
 make install-config
+
+Now we can edit proxychains configure file 
+
+vim /usr/local/etc/proxychains.conf
+Go to last line, replace this line  
+
+socks4  127.0.0.1 9050
+
+with  
+socks5 10.0.18.88 7070
+save and quit, and now you can using it .
+
+proxychains4 wget http...
+
+the proxy ip and port must be set before you are using proxychains.
